@@ -1,0 +1,25 @@
+{
+    "name": "penance316/laravel-iso8601-validator",
+    "description": "laravel iso8601 date validation package",
+    "keywords": ["laravel", "iso8601", "date", "validator"],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": ">=5.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">=4.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nero Denney",
+            "email": "penance316@gmail.com",
+            "homepage": "https://nerodenney.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Penance316\\Validators\\": "src"
+        }
+    }
+}
