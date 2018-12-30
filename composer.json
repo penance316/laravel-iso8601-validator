@@ -1,5 +1,5 @@
 {
-    "name": "penance316/laravel-iso8601-validator",
+    "name": "pablorsk/laravel-iso8601-validator",
     "description": "laravel iso8601 date validation package",
     "keywords": ["laravel", "iso8601", "date", "validator"],
     "require": {
