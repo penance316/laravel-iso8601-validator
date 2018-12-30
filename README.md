@@ -7,7 +7,7 @@ Install
 composer require "penance316/laravel-iso8601-validator"
 ```
 
- Add the required validator to boot method of `app/Providers/AppServiceProvider.php`
+Add the required validator to boot method of `app/Providers/AppServiceProvider.php`
  
 ```
 Validator::extend('iso_date', 'Penance316\Validators\IsoDateValidator@validateIsoDate');
