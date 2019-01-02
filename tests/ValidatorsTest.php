@@ -3,7 +3,7 @@
 use Penance316\Validators\IsoDateValidator;
 use PHPUnit\Framework\TestCase;
 
-require(__DIR__ . '/../src/IsoDateValidator.php');
+require_once(__DIR__ . '/../src/IsoDateValidator.php');
 
 class ValidatorsTest extends TestCase {
 
